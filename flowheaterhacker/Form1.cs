@@ -39,6 +39,7 @@ namespace flowheaterhacker
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
+			TopMost = true;
 			if(Properties.Settings.Default.file != "") { file = Properties.Settings.Default.file; tb_SaveFile.Text = file; }
 			if(Properties.Settings.Default.lastKey != "") { key = Properties.Settings.Default.lastKey;  }
 			else { Properties.Settings.Default.lastKey = key; Properties.Settings.Default.Save(); }
