@@ -22,8 +22,8 @@ namespace flowheaterhacker
 
 		bool run = false;
 		string file = "";
-		//string key = "00000-00000-00000-00000-00000-00000";
-		string key = "P4008-01232-51903-62917-47122-17W00";
+		string key = "00000-00000-00000-00000-00000-00000";
+		//string key = "P4008-01232-51903-62917-47122-17W00";
 		keyHandler kh = new keyHandler();
 		bool aot = false;
 		int tests = 0;
@@ -40,8 +40,8 @@ namespace flowheaterhacker
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			if(Properties.Settings.Default.file != "") { file = Properties.Settings.Default.file; tb_SaveFile.Text = file; }
-			//if(Properties.Settings.Default.lastKey != "") { key = Properties.Settings.Default.lastKey;  }
-			//else { Properties.Settings.Default.lastKey = key; Properties.Settings.Default.Save(); }
+			if(Properties.Settings.Default.lastKey != "") { key = Properties.Settings.Default.lastKey;  }
+			else { Properties.Settings.Default.lastKey = key; Properties.Settings.Default.Save(); }
 			mtb_Text.Text = key;
 		}
 
