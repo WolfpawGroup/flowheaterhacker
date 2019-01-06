@@ -138,7 +138,7 @@
 			this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label12.AutoSize = true;
 			this.label12.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.label12.Location = new System.Drawing.Point(357, 3);
+			this.label12.Location = new System.Drawing.Point(356, 3);
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(73, 13);
 			this.label12.TabIndex = 28;
